@@ -1,0 +1,43 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  border-bottom: .1px solid #acacac59;
+  color: #acacac;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.btn-save {
+  margin-right: 20px;
+  font-size: 20px;
+  text-decoration: none;
+  color: #acacac;
+  outline: unset;
+  transition: .1s;
+}
+
+.btn-save:active {
+  text-decoration: none;
+  color: #acacac;
+  transform: scale(1.05);
+}
+
+input,
+textarea {
+  background: unset;
+  width: 100vw;
+  border: unset;
+  padding: 5px 25px;
+  outline: unset;
+}
+
+.title-form {
+  font-weight: bold;
+  font-size: 20PX;
+}

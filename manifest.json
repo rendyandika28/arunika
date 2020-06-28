@@ -1,0 +1,21 @@
+{
+  "short_name": "Arunika",
+  "name": "Arunika Personal Notes",
+  "icons": [{
+      "src": "/images/images-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/images/images-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "index.html",
+  "background_color": "#00939C",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#00939C",
+  "orientation": "portrait"
+}
